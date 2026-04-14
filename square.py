@@ -5,7 +5,7 @@ for i in range(0, int(input()), 1):
     test.append([int(i) for i in square])
 
 for i in test:
-        if sum(i)/4 == i[0]: print('YES')
+        if sum(i)/4 == i[0] & i[1] & i[2] & i[3]: print('YES')
         else: print('NO')
 
 
