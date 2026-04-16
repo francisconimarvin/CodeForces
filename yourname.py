@@ -3,7 +3,7 @@ for i in range(1, test_n:=int(input())+1, 1):
     names = input().split()
     firstName = names[0]
     anagram = names[1]
-    if len(firstName) == len(anagram) and sorted(firstName) == sorted(anagram):
+    if len(firstName) == len(anagram) == name_len and sorted(firstName) == sorted(anagram):
         print('YES')
     else:
         print('NO')
